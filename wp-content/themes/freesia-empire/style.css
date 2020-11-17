@@ -304,12 +304,12 @@ a:focus {
 }
 .container {
 	margin: 0 auto;
-	max-width: 1170px;
+	max-width: 1240px;
 	padding: 0;
 	position: relative;
 }
 .container_container {
-	max-width: 978px;
+	max-width: 1240px;
 	margin: 0 auto;
 }
 #primary .container {
