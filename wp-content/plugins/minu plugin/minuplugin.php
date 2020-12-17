@@ -8,7 +8,17 @@ Author URI: https://daniiltrutnev.ikt.khk.ee/wordpress/
 Version: 1.0
 */
 
-function my_plugin_test() {
-	echo 'Hello World'; exit;
-}
-add_action('admin_head', 'my_plugin_test');
+/*************************** 
+ *  global variables
+ * ************************/
+ 
+$mfwp_prefix = 'mfwp_';
+$mfwp_plugin_nam = 'My first wordpress plugin';
+
+/*************************** 
+ *  includes
+ * ************************/
+ 
+ include('includes/scripts.php'); // this controls all js / css
+ include('includes/data-processing.php'); // this controls all saving of data
+  include('includes/display-functions.php'); // this controls all saving of data
