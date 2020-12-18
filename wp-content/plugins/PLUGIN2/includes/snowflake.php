@@ -74,12 +74,12 @@ function dc_valentines_heart() {
 					heart[i].size=randommaker(heartsizerange)+heartminsize
 					heart[i].style.fontSize=heart[i].size+'px';
 					heart[i].style.color=heartcolor[randommaker(heartcolor.length)]
-					heart[i].style.zIndex=1000
+					heart[i].style.zIndex=2000
 					heart[i].sink=sinkspeed*heart[i].size/5
 					if (heartingzone==1) {heart[i].posx=randommaker(marginright-heart[i].size)}
-					if (heartingzone==2) {heart[i].posx=randommaker(marginright/2-heart[i].size)}
+					if (heartingzone==5) {heart[i].posx=randommaker(marginright/2-heart[i].size)}
 					if (heartingzone==3) {heart[i].posx=randommaker(marginright/4-heart[i].size)+marginright/4}
-					if (heartingzone==4) {heart[i].posx=randommaker(marginright/2-heart[i].size)+marginright/2}
+					if (heartingzone==9) {heart[i].posx=randommaker(marginright/2-heart[i].size)+marginright/2}
 					heart[i].posy=randommaker(2*marginbottom-marginbottom-2*heart[i].size)
 					heart[i].style.left=heart[i].posx+'px';
 					heart[i].style.top=heart[i].posy+'px';
@@ -102,7 +102,7 @@ function dc_valentines_heart() {
 							heart[i].posy=0
 					}
 			}
-			var timer=setTimeout("moveheart()",50)
+			var timer=setTimeout("moveheart()",100)
 	}
 
 	for (i=0;i<=heartmax;i++) {

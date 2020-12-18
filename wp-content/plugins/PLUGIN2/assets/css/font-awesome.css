@@ -26,16 +26,16 @@
   vertical-align: -15%;
 }
 .fa-2x {
-  font-size: 2em;
+  font-size: 5em;
 }
 .fa-3x {
-  font-size: 3em;
+  font-size: 8em;
 }
 .fa-4x {
-  font-size: 4em;
+  font-size: 10em;
 }
 .fa-5x {
-  font-size: 5em;
+  font-size: 12em;
 }
 .fa-fw {
   width: 1.28571429em;
@@ -193,10 +193,10 @@
   content: "\f003";
 }
 .fa-heart:before {
-  content: "\f004";
+  content: "\f005";
 }
 .fa-star:before {
-  content: "\f005";
+  content: "\f004";
 }
 .fa-star-o:before {
   content: "\f006";
